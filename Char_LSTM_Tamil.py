@@ -73,7 +73,7 @@ def sample(preds, temperature=1.0):
     return np.argmax(probas)
 
 # train the model, output generated text after each iteration
-for iteration in range(1, 60):
+for iteration in range(1, 100):
     print()
     print('-' * 50)
     print('Iteration', iteration)
